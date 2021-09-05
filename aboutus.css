@@ -1,0 +1,70 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+ img {
+  width: 60px;
+  height: 50px;
+}
+
+nav {
+  background: #594848;
+  width: 100%;
+  overflow: auto;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+nav a {
+  width: 120px;
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  background: #594848;
+  font-size: 17px;
+  color: white;
+  padding: 20px 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+nav a:hover {
+  background: skyblue;
+  color: black;
+}
+
+body {
+  box-sizing: border-box;]
+}
+
+.container {
+  width: 95%;
+  margin: auto;
+  margin-top: 20px;
+  background-color: white;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 90%;
+  margin:auto;
+  background-color: grey;
+  color: rgb(12, 6, 34);
+  padding: 10px;
+  height: 400px; /* Should be removed. Only for demonstration */
+}
+.row{
+  width: 90%;
+  background-color: grey;
+}
+
+/* Clear floats after the columns */
+
