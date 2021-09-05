@@ -4,7 +4,7 @@ header {
   justify-content: space-between;
 }
 
- img {
+img {
   width: 60px;
   height: 50px;
 }
@@ -41,7 +41,7 @@ nav a:hover {
 }
 
 body {
-  box-sizing: border-box;]
+  box-sizing: border-box;
 }
 
 .container {
@@ -49,22 +49,34 @@ body {
   margin: auto;
   margin-top: 20px;
   background-color: white;
+  margin-bottom: 30px;
 }
 
 /* Create two equal columns that floats next to each other */
 .column {
   float: left;
   width: 90%;
-  margin:auto;
+  margin: auto;
   background-color: grey;
   color: rgb(12, 6, 34);
   padding: 10px;
   height: 400px; /* Should be removed. Only for demonstration */
 }
-.row{
+.row {
   width: 90%;
   background-color: grey;
 }
 
 /* Clear floats after the columns */
 
+footer {
+  margin-top: 500px;
+  padding: 20px;
+  font-size: 17px;
+  font-weight: bold;
+  text-align: center;
+  background: #594848;
+  color: white;
+  font-family: Arial;
+  letter-spacing: 1px;
+}
